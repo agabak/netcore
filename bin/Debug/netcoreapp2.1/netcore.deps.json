@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "8d19439ef22c432fe18f0eac697c8789fe30c00a"
+    "signature": "2cc547ac2c2e0f496cedf2a6abfb59a4ae0a1cb5"
   },
   "compilationOptions": {
     "defines": [
@@ -25,7 +25,8 @@
       "netcore/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
-          "Microsoft.NETCore.App": "2.1.0"
+          "Microsoft.NETCore.App": "2.1.0",
+          "psake": "4.7.4"
         },
         "runtime": {
           "netcore.dll": {}
@@ -205,6 +206,7 @@
           "Microsoft.NETCore.Platforms": "2.1.0"
         }
       },
+      "psake/4.7.4": {},
       "Microsoft.AspNet.WebApi.Client/5.2.6": {
         "dependencies": {
           "Newtonsoft.Json": "11.0.2",
@@ -3204,6 +3206,13 @@
       "sha512": "sha512-st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "path": "netstandard.library/2.0.3",
       "hashPath": "netstandard.library.2.0.3.nupkg.sha512"
+    },
+    "psake/4.7.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-9WhZyZQ6Bc4F7bZQxj5eFwjtKsMaI+Kw6E1kikK2rYZbMs+yrQqs6ycujvXOyqEINT6aunrsipwX7zt8Nu+lCw==",
+      "path": "psake/4.7.4",
+      "hashPath": "psake.4.7.4.nupkg.sha512"
     },
     "Microsoft.AspNet.WebApi.Client/5.2.6": {
       "type": "package",

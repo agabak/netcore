@@ -12,5 +12,4 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
     <PackageReference Include="psake" Version="4.7.4" />
   </ItemGroup>
-
 </Project>

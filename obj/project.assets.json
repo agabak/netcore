@@ -2638,6 +2638,9 @@
           "lib/netstandard1.3/Newtonsoft.Json.Bson.dll": {}
         }
       },
+      "psake/4.7.4": {
+        "type": "package"
+      },
       "Remotion.Linq/2.2.0": {
         "type": "package",
         "dependencies": {
@@ -6933,6 +6936,71 @@
         "lib/netstandard1.3/Newtonsoft.Json.Bson.xml",
         "newtonsoft.json.bson.1.0.1.nupkg.sha512",
         "newtonsoft.json.bson.nuspec"
+      ]
+    },
+    "psake/4.7.4": {
+      "sha512": "9WhZyZQ6Bc4F7bZQxj5eFwjtKsMaI+Kw6E1kikK2rYZbMs+yrQqs6ycujvXOyqEINT6aunrsipwX7zt8Nu+lCw==",
+      "type": "package",
+      "path": "psake/4.7.4",
+      "files": [
+        ".signature.p7s",
+        "psake.4.7.4.nupkg.sha512",
+        "psake.nuspec",
+        "tools/README.md",
+        "tools/chocolateyInstall.ps1",
+        "tools/chocolateyUninstall.ps1",
+        "tools/init.ps1",
+        "tools/license",
+        "tools/psake/en-US/psake.psm1-help.xml.old",
+        "tools/psake/examples/checkvariables.ps1",
+        "tools/psake/examples/continueonerror.ps1",
+        "tools/psake/examples/default.ps1",
+        "tools/psake/examples/formattaskname_scriptblock.ps1",
+        "tools/psake/examples/formattaskname_string.ps1",
+        "tools/psake/examples/msbuild40.ps1",
+        "tools/psake/examples/nested.ps1",
+        "tools/psake/examples/nested/nested1.ps1",
+        "tools/psake/examples/nested/nested2.ps1",
+        "tools/psake/examples/paralleltasks.ps1",
+        "tools/psake/examples/parameters.ps1",
+        "tools/psake/examples/passingParametersString/build.Release.Version.bat",
+        "tools/psake/examples/passingParametersString/parameters.ps1",
+        "tools/psake/examples/preandpostaction.ps1",
+        "tools/psake/examples/preandpostcondition.ps1",
+        "tools/psake/examples/properties.ps1",
+        "tools/psake/examples/requiredvariables.ps1",
+        "tools/psake/examples/tasksetupandteardown.ps1",
+        "tools/psake/private/CleanupEnvironment.ps1",
+        "tools/psake/private/ConfigureBuildEnvironment.ps1",
+        "tools/psake/private/CreateConfigurationForNewContext.ps1",
+        "tools/psake/private/ExecuteInBuildFileScope.ps1",
+        "tools/psake/private/Get-DefaultBuildFile.ps1",
+        "tools/psake/private/GetCurrentConfigurationOrDefault.ps1",
+        "tools/psake/private/GetTasksFromContext.ps1",
+        "tools/psake/private/LoadConfiguration.ps1",
+        "tools/psake/private/LoadModules.ps1",
+        "tools/psake/private/ResolveError.ps1",
+        "tools/psake/private/SelectObjectWithDefault.ps1",
+        "tools/psake/private/WriteColoredOutput.ps1",
+        "tools/psake/private/WriteDocumentation.ps1",
+        "tools/psake/private/WriteTaskTimeSummary.ps1",
+        "tools/psake/psake-config.ps1",
+        "tools/psake/psake.cmd",
+        "tools/psake/psake.ps1",
+        "tools/psake/psake.psd1",
+        "tools/psake/psake.psm1",
+        "tools/psake/public/Assert.ps1",
+        "tools/psake/public/Exec.ps1",
+        "tools/psake/public/FormatTaskName.ps1",
+        "tools/psake/public/Framework.ps1",
+        "tools/psake/public/Get-PSakeScriptTasks.ps1",
+        "tools/psake/public/Include.ps1",
+        "tools/psake/public/Invoke-Task.ps1",
+        "tools/psake/public/Invoke-psake.ps1",
+        "tools/psake/public/Properties.ps1",
+        "tools/psake/public/Task.ps1",
+        "tools/psake/public/TaskSetup.ps1",
+        "tools/psake/public/TaskTearDown.ps1"
       ]
     },
     "Remotion.Linq/2.2.0": {
@@ -11496,7 +11564,8 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.1": [
       "Microsoft.AspNetCore.App >= 2.1.1",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "psake >= 4.7.4"
     ]
   },
   "packageFolders": {
@@ -11506,11 +11575,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\dev\\docker\\netcore\\netcore.csproj",
+      "projectUniqueName": "c:\\dev\\docker\\netcore\\netcore.csproj",
       "projectName": "netcore",
-      "projectPath": "C:\\dev\\docker\\netcore\\netcore.csproj",
+      "projectPath": "c:\\dev\\docker\\netcore\\netcore.csproj",
       "packagesPath": "C:\\Users\\akabunga\\.nuget\\packages\\",
-      "outputPath": "C:\\dev\\docker\\netcore\\obj\\",
+      "outputPath": "c:\\dev\\docker\\netcore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -11550,6 +11619,10 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "psake": {
+            "target": "Package",
+            "version": "[4.7.4, )"
           }
         },
         "imports": [
